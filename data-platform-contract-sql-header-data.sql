@@ -36,6 +36,8 @@ CREATE TABLE `data_platform_contract_header_data`
   `HeaderText`                       varchar(200) DEFAULT NULL,
   `HeaderBlockStatus`                tinyint(1) DEFAULT NULL,
   `ExternalReferenceDocument`        varchar(100) DEFAULT NULL,
+  `CertificateAuthorityChain`        varchar(2000) DEFAULT NULL,
+  `UsageControlChain`                varchar(2000) DEFAULT NULL,
   `CreationDate`                     date NOT NULL,
   `CreationTime`                     time NOT NULL,
   `LastChangeDate`                   date NOT NULL,

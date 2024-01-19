@@ -16,6 +16,7 @@ data-platform-contract-sql には、sqlの設定ファイルとして、以下�
 * data-platform-contract-sql-item-doc-data.sql（データ連携基盤 契約 - 明細文書データ）
 * data-platform-contract-sql-item-pricing-element-data.sql（データ連携基盤 契約 - 明細価格決定要素データ）
 * data-platform-contract-sql-partner-data.sql（データ連携基盤 契約 - 取引先データ）
+* data-platform-contract-sql-contract-data.sql（データ連携基盤 契約 - プラントデータ）
 * data-platform-contract-sql-address-data.sql（データ連携基盤 契約 - 住所データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
